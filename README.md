@@ -6,6 +6,9 @@
  
 Примеры:
 
+![демо1](https://github.com/baydak/aquarium/blob/master/water_task_1.png) 
+![демо2](https://github.com/baydak/aquarium/blob/master/water_task_2.png)
+
 
  
 Реализация требует написания веб-приложения, которое будет принимать числовую последовательность и на её основе отрисовывать аквариум.
