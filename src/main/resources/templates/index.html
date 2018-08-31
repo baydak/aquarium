@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Simple form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h2>Вычисление объёма воды во впадинах</h2>
+<form action="#" th:action="@{/sum}" th:object="${objectToFill}" method="post">
+    <p>Введите одномерный массив целых чисел: <input type="text" th:field="*{landscapeLineStr}" /></p>
+    <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+</body>
+</html>
